@@ -1,19 +1,21 @@
-.rouletter {
+.roulette {
   position: relative;
   width: 400px;
   height: 400px;
 }
-.rouletter-bg {
+
+.roulette-bg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   width: 350px;
   height: 350px;
   border-radius: 350px;
   overflow: hidden;
 }
-.rouletter-wacu {
+.roulette-image {
   width: 100%;
   height: 100%;
   background: #f5f5f2
@@ -21,11 +23,10 @@
     no-repeat;
   background-size: 100%;
   transform-origin: center;
-  /*????????????*/
   transition-timing-function: ease-in-out;
   transition: 2s;
 }
-.rouletter-arrow {
+.roulette-arrow {
   position: absolute;
   top: 0;
   left: 50%;
@@ -37,7 +38,7 @@
   border-top: 40px solid red;
   border-bottom: 0px solid transparent;
 }
-.rouletter-btn {
+.roulette-btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,12 +46,14 @@
   width: 80px;
   height: 80px;
   border-radius: 80px;
-  background: #fff;
-  border-image: linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+
+  font-size: 20px;
+  background: lightgrey;
+  /* border-image: linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa); */
   border: 2px solid;
 }
 
-.on {
+/* .on {
   animation-name: ani;
   animation-duration: 0.1s;
   animation-fill-mode: forwards;
@@ -65,4 +68,4 @@
   100% {
     transform: rotate(260deg);
   }
-}
+} */
